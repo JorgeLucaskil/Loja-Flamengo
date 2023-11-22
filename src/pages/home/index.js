@@ -1,4 +1,5 @@
 import BoxItem from "../componentes/BoxItem";
+import BoxItem2 from "../componentes/BoxItem2";
 import Menu from "../componentes/Menu";
 import Rodape from "../componentes/Rodape";
 import Banner from "./componentes/Banner";
@@ -22,11 +23,27 @@ function Home() {
         <br></br>
         <div className="area-itens">
           <BoxItem></BoxItem>
-          <BoxItem></BoxItem>
-          <BoxItem></BoxItem>
-          <BoxItem></BoxItem>
         </div>
         <br></br>
+        
+        <div className="vertodos">
+          <div className="area-esq">
+        <h1 className="titulo">Mais vendidos feminino</h1>
+        <div className="linha"></div>
+          </div>
+          <div className="area-dir">
+            <p className="verprod"><b>ver produtos</b></p>
+          </div>
+        </div>
+        <br></br>
+        <div className="area-itens">
+          <BoxItem2></BoxItem2>
+        </div>
+        <br></br>
+        
+
+
+
         <center><h1 className="titulo">Principais Fornecedores</h1></center>
         <div className="area-fornecedores">
           <Fornecedor></Fornecedor>
