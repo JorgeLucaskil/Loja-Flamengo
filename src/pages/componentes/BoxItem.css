@@ -12,15 +12,17 @@
 .im-box{
     width: 90%;
 }
-h6{
-    margin-top: -2%;
-    padding: 0;
+.anuncio1{
+
     color: #828282;
+    font-size: 12px;
 }
-h5{
-    margin-top: -8%;
+.anuncio2{
     color: #d73e44;
+    font-size: 15px;
+    margin-bottom: 8%;
 }
+
 .btn-primary{
     background-color: #d2232a;
     width: 80%;
@@ -28,7 +30,6 @@ h5{
     border: none;
     color: white;
     font-size: 20px;
-    margin-top: -10%;
 }
 .btn-primary:hover{
     transition: 0.4s ease-in-out;

@@ -4,7 +4,12 @@ function Fornecedor() {
   return (
     <div className="fornecedor">
         <img src=""></img>
+        <img src=""></img>
+        <img src=""></img>
+        <img src=""></img>
+        <img src=""></img>
     </div>
+    
   );
 }
 

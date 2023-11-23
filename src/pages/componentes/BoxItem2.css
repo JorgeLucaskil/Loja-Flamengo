@@ -12,14 +12,14 @@
 .im-box{
     width: 90%;
 }
-h6{
-    margin-top: -2%;
+.anuncio1{
     padding: 0;
     color: #828282;
+    font-size: 12px;
 }
-h5{
-    margin-top: -8%;
+.anuncio2{
     color: #d73e44;
+    font-size: 15px;
 }
 .btn-primary{
     background-color: #d2232a;

@@ -42,3 +42,38 @@
     height: 15vh;
     text-align: center;
 }
+
+.linha-manto{
+    width: 20%;
+    background: rgb(194, 12, 12);
+    height: 7px;
+    border-radius: 17px;
+    
+}
+.titulo1{   
+    font-size: 30px;
+}
+.mantos{
+    width: 100%;
+}
+.manto1{
+    transition: transform .2s;
+    margin-right: 3%;
+}
+.manto2{
+    transition: transform .2s;
+}
+.manto3{
+    transition: transform .2s;
+    margin-left: 3%;
+}
+
+.manto1:hover{
+    transform: scale(1.1);
+}
+.manto2:hover{
+    transform: scale(1.1);
+}
+.manto3:hover{
+    transform: scale(1.1);
+}

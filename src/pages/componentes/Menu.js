@@ -1,31 +1,57 @@
-import "./Menu.css";
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "./img/logo.png";
+import "./Menu.css";
 import Carrinho from "./img/carrinho.png";
 
 function Menu() {
-    return (
-        <div className="menu">
-            <div className="area-logo">
-            <img className="logo" src={Logo}></img>
-            </div>
-            <div className="area-pesquisa">
-                <form>   
-                    <input type="text" className="pesquisa" placeholder="Pesquise aqui"></input>
-                    <input type="submit" value="Pesquisar" className="button"></input>
-                </form> 
-            </div>
-            <div className="area-menu">
-                <ul>
-                    <a href="/"><li>Home</li></a>
-                    <a href="/produto"><li>Produtos</li></a>
-                    <div className="carrinho">
-                        <img className="carrinhoimg" src={Carrinho}></img>
-                    </div>
-                </ul>
-            </div>
+  return (
+    <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
+      <Container fluid>
+        <div className='area-logo'>
+        <img src={Logo} className="logo"></img>
         </div>
-    );
-  }
-  
-  export default Menu;
-  
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1">Home</Nav.Link>
+            <NavDropdown title="Produtos" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#masc">Masculino</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Feminino
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action5">
+                Infantil
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#">
+              Login
+            </Nav.Link>
+          </Nav>
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Pesquisar"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-danger">Pesquisar</Button>
+          </Form>
+          <div className="carrinho">
+          <img className="carrinhoimg" src={Carrinho}></img>
+          </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default Menu;
