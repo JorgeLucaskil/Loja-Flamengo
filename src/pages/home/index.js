@@ -8,12 +8,14 @@ import "./Home.css";
 import Manto1 from "./componentes/img/manto1.png";
 import Manto2 from "./componentes/img/manto2.png";
 import Manto3 from "./componentes/img/manto3.png";
+import Formulario from "./componentes/Form";
 
 function Home() {
     return (
       <div>
         <Menu></Menu>
         <Banner></Banner>
+        <br></br>
         <div className="vertodos" id="masc">
           <div className="area-esq">
         <h1 className="titulo">Principais Produtos</h1>
@@ -66,6 +68,17 @@ function Home() {
         <br></br>
         <div className="area-fornecedores">
           <Fornecedor></Fornecedor>
+        </div>
+        <br></br>
+        <br></br>
+        <center><h1 className="titulo1">Receba Novidades</h1></center>
+        <center><div className="linha-manto"></div></center>
+        <br></br>
+        <br></br>
+        <div className="area-formulario">
+          <div className="form">
+        <Formulario></Formulario>
+          </div>
         </div>
           <Rodape></Rodape>
       </div>

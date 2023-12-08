@@ -22,16 +22,8 @@ function Menu() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <NavDropdown title="Produtos" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#masc">Masculino</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Feminino
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
-                Infantil
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/prodind">Produtos</Nav.Link>
             <Nav.Link href="#">
               Login
             </Nav.Link>

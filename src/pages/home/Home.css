@@ -35,7 +35,7 @@
 }
 .area-itens{
     width: 100%;
-    height: 45vh;
+    height: 42vh;
 }
 .area-fornecedores{
     width: 100%;
@@ -76,4 +76,12 @@
 }
 .manto3:hover{
     transform: scale(1.1);
+}
+.area-formulario{
+    width: 100%;
+    
+}
+.form{
+    width: 60%;
+    margin-left: 20%;
 }
