@@ -1,5 +1,5 @@
 import BoxItem from "../componentes/BoxItem";
-import BoxItem2 from "../componentes/BoxItem2";
+import BoxItem5 from "../componentes/BoxItem5";
 import Menu from "../componentes/Menu";
 import Rodape from "../componentes/Rodape";
 import Banner from "./componentes/Banner";
@@ -22,11 +22,11 @@ function Home() {
         <div className="linha"></div>
           </div>
           <div className="area-dir">
-            <p className="verprod"><b>ver produtos</b></p>
+          <a href="/prodind" className="prodlink"><p className="verprod"><b>ver produtos</b></p></a>
           </div>
         </div>
         <br></br>
-        <div className="area-itens">
+        <div className="salario">
           <BoxItem></BoxItem>
         </div>
         <br></br>
@@ -37,12 +37,12 @@ function Home() {
         <div className="linha"></div>
           </div>
           <div className="area-dir">
-            <p className="verprod"><b>ver produtos</b></p>
+            <a href="/prodind" className="prodlink"><p className="verprod"><b>ver produtos</b></p></a>
           </div>
         </div>
         <br></br>
-        <div className="area-itens">
-          <BoxItem2></BoxItem2>
+        <div className="salario">
+          <BoxItem5></BoxItem5>
         </div>
         <br></br>
 

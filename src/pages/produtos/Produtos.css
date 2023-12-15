@@ -1,0 +1,45 @@
+.valorpromo{
+    color: rgb(189, 3, 3);
+    margin-top: -3%;
+    font-size: 20px;
+}
+.parcela{
+    font-size: 12px;
+    margin-top: -2%;
+}
+.desconto{
+    font-size: 13px;
+    margin-top: -2%;
+    color: red;
+}
+.tam{
+    float: left;
+}
+.interrogacao{
+    margin-left: 1%;
+    width: 4%;
+}
+.numero{
+    margin-left: 2%;
+    pointer-events: auto;
+    width: 16%;
+}
+.jgd{
+    width: 254px; 
+    height: 32px; 
+    margin-bottom: 10px; 
+}
+.mapa{
+    text-align: center;
+    width: 100%;
+}
+.mapaimg{
+    border: 1px black solid;
+    width: 20%;
+    margin-right: 1%;
+    
+}
+.mapaimg2{
+    border: 1px black solid;
+    width: 20%;
+}

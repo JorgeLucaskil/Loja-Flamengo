@@ -1,6 +1,12 @@
+body{
+    background: white;
+}
 .vertodos{
     height: 7vh;
     width: 100%;
+}
+.salario{
+    height: 45vh;
 }
 .area-esq{
     float: left;
@@ -28,7 +34,10 @@
     margin-right: 3%;
     margin-top: 4%;
     color: rgb(194, 12, 12);
-
+    
+}
+.prodlink{
+    text-decoration: none;
 }
 .verprod:hover{
     cursor: pointer;

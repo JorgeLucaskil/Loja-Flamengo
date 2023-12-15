@@ -11,7 +11,7 @@ function BoxItem2() {
           
         <div className="box">
           <a href="/produto"><img src={Feminino1} className="im-box"></img></a>
-          <h6 className="anuncio1">Manto Flamengo Feminina Jogo 1 Adidas 2023</h6>
+          <h6 className="anuncio1">Manto Flamengo Feminina 1 Adidas 2023</h6>
           <h5 className="anuncio2">R$ 199,99</h5>
           <a href="/produto"><button className="btn-primary">Comprar+</button></a>
         </div>
@@ -29,7 +29,7 @@ function BoxItem2() {
           
         <div className="box">
           <a href="/produto"><img src={Feminino3} className="im-box"></img></a>
-          <h6 className="anuncio1" >Manto Flamengo Feminina Jogo 2 Adidas 2023</h6>
+          <h6 className="anuncio1" >Manto Flamengo Feminina 2 Adidas 2023</h6>
           <h5 className="anuncio2">R$ 349,99</h5>
           <a href="/produto"><button className="btn-primary">Comprar+</button></a>
         </div>
@@ -38,8 +38,7 @@ function BoxItem2() {
           
         <div className="box">
           <a href="/produto"><img src={Feminino4} className="im-box"></img></a>
-          <h6 className="anuncio1">Camisa Flamengo Feminina Grasp Braziline
-  </h6>
+          <h6 className="anuncio1">Camisa Flamengo Feminina Grasp Braziline</h6>
           <p className="anuncio2">R$ 229,99</p>
           <a href="/produto"><button className="btn-primary">Comprar+</button></a>
         </div>
